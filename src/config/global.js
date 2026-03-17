@@ -1,9 +1,10 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    Name: 'Logística comercial',
+    Description:
+      'Este componente formativo aborda la logística en operaciones comerciales en <em>retail</em>, enfocándose en conocimientos relacionados con la gestión de almacenes, incluyendo recibo, despacho y manejo de datos, así como el tratamiento del envase, empaque y embalaje en <em>picking</em> y <em>packing</em>, carga y sus conceptos asociados, además su relación con las Buenas Prácticas de Manufactura (BPM) y la normativa técnica de SST .',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,28 +36,86 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Almacenamiento',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Recibo',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Despacho',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Datos',
+            hash: 't_1_3',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: '<em>Picking</em> y <em>Packing</em>',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Envase',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Empaque',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Embalaje',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Carga',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Unitarización',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Desunitarización',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Rotulación',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Cubicaje',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Buenas Prácticas de Manufactura (BPM)',
+            hash: 't_3_5',
+          },
+          {
+            numero: '3.6',
+            titulo: 'Normativa técnica en seguridad y salud en el trabajo',
+            hash: 't_3_6',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -81,7 +144,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CF2_621209_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -95,24 +158,104 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: 'Tema 1',
-      referencia: 'Texto',
-      tipo: 'Sitio web',
-      link: 'Link',
-    },
-  ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Canal de distribución',
+      significado:
+        'Medio a través del cual se transportan productos desde su producción, hasta el consumidor final.',
+    },
+    {
+      termino: 'Flete',
+      significado:
+        'Costes o tarifas propias del servicio de traslado de mercancías, calculado a través de diferentes variables y características propias de la carga.',
+    },
+    {
+      termino: 'Gestión de almacén',
+      significado:
+        'Es el proceso que unifica todas las acciones a realizar en un almacén y que están orientadas al flujo de los artículos en la misma y a la preparación y despacho de pedidos.',
+    },
+    {
+      termino: 'Gestión de <em>stock</em>',
+      significado:
+        'Es el proceso de gestionar las existencias de producto y su valor.',
+    },
+    {
+      termino: 'Gestión logística',
+      significado:
+        'Abarca los procesos desde la planificación, almacenamiento y distribución de productos o materiales, así como el manejo de datos inherentes al proceso.',
+    },
+    {
+      termino: 'Logística de abastecimiento',
+      significado:
+        'Unifica las funciones de diferentes departamentos que permitan una continua comunicación y alineación con los factores involucrados en el proceso.',
+    },
+    {
+      termino: 'Logística de distribución',
+      significado:
+        'Comprende las actividades de expedición y distribución de los productos terminados a los distintos mercados, constituyendo un nexo entre las funciones de producción y de comercialización.',
+    },
+    {
+      termino: '<em>Pallet</em>',
+      significado:
+        'Plataforma reutilizable que permite el aprovechamiento del espacio, para la organización de diferentes elementos facilitando almacenamiento y transporte. Pueden ser de diferentes medidas y materiales.',
+    },
+    {
+      termino: '<em>Stock</em>',
+      significado:
+        'Producto en existencia, disponible para el proceso de comercialización, distribución y entrega.',
+    },
+    {
+      termino: 'Transitorio',
+      significado:
+        'Empresa especializada en la organización y gestión, por encargo del usuario (cargador), de la cadena de transporte de mercancías (o de parte de ella) en cualquiera de sus modos (aéreo, carretera, ferrocarril y marítimo).',
+    },
+    {
+      termino: 'Zona de <em>picking</em>',
+      significado: 'Lugar de preparación de pedidos y embalaje de producto.',
+    },
+    {
+      termino: 'Zona de <em>pallets</em>',
+      significado:
+        'Lugar de almacenamiento de bloques de <em>pallets</em> para su reorganización a través del <em>picking</em> o para una nueva distribución.',
+    },
+    {
+      termino: 'Zona de pesaje',
+      significado:
+        'Zona para validar el peso y dimensiones de producto para tenerlo en cuenta para el medio de entrega o recepción.',
+    },
+    {
+      termino: 'Zona franca',
+      significado:
+        'Lugar territorial, con delimitaciones, donde hay facilidades comerciales a través de exenciones arancelarias, de impuestos y especiales exoneraciones para la comercialización o consumo.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Preparación de pedidos: definición, etapas, métodos y sistemas. (n.d.).',
+      link: 'https://www.beetrack.com/es/blog/preparacion-de-pedidos',
+    },
+    {
+      referencia:
+        'Castellanos Ramírez, A. (n.d.). Logística comercial internacional.',
+      link:
+        'https://www.ecoeediciones.com/wp-content/uploads/2015/07/Logistica-Comercial-Internacional.pdf?srsltid=AfmBOoqDiiUgOhJ3-ayEoZ-RvzEuf4WJC_Jgn29o_LU9FoB4V8eZvODz',
+    },
+    {
+      referencia:
+        'Martín-Andino, R. (2006). Cadena de suministro (SCM). Madrid: EOI Escuela de Negocios.',
+      link:
+        'https://www.eoi.es/sites/default/files/savia/documents/componente45144.pdf',
+    },
+    {
+      referencia:
+        'anyflip.com. (2021, May 8). Gomez Aparicio Juan Miguel - Gestión Logística Y Comercial - Páginas de Flipbook 201-216 | AnyFlip.',
+      link: 'https://anyflip.com/nzfse/blag/basic/201-216',
+    },
+    {
+      referencia:
+        'Zarate, P. (2023, 8 junio). ¿Qué es unidad de carga y cómo se integra cada tipo? Nasa Pack.',
+      link: 'https://www.nasapack.com/que-es-unidad-de-carga/',
     },
   ],
   creditos: [
@@ -135,9 +278,27 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '--',
-          cargo: 'Experto temático',
-          centro: '--',
+          nombre: 'Lizeth Maritza Rodríguez Beltrán',
+          cargo: 'Instructora técnica',
+          centro:
+            'Centro de Manufactura en Textil y Cuero - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Natalia Andrea Bueno Pizarro',
+          cargo: 'Diseñadora y evaluadora instruccional',
+          centro:
+            'Centro para La Industria de la Comunicación Gráfica - Distrito Capital',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Diseñadora y evaluadora instruccional',
+          centro:
+            'Centro para La Industria de la Comunicación Gráfica - Distrito Capital',
+        },
+        {
+          nombre: 'Carolina Jiménez Suescún',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -145,18 +306,18 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '--',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Yuly Andrea Rey Quiñonez',
+          cargo: 'Diseñadora de contenidos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '--',
+          nombre: 'Leonardo Castellanos Rodriguez',
           cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Maria Alejandra Vera Briceño',
-          cargo: 'Animadora y productora audiovisual',
+          cargo: 'Animadora y productora multimedia',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -165,13 +326,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Erika Daniela Manrique Rueda',
-          cargo: 'Validadora y vinculadora de recursos educativos digitales',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
+          cargo: 'Validadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Laura Paola Gelvez Manosalva',
-          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
+          nombre: 'Andrea Ardila Chaparro',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -183,4 +344,25 @@ export default {
     creativeCommons:
       'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
+  // creditosInicio: [
+  //   {
+  //     titulo: 'En alianza',
+  //     contenido: [
+  //       require('@/assets/template/logo-sena-naranja.svg'),
+  //       require('@/assets/template/mintic.jpg'),
+  //       require('@/assets/template/minsalud.jpg'),
+  //     ],
+  //   },
+  //   {
+  //     titulo: 'En compañía',
+  //     contenido: [
+  //       require('@/assets/template/presidencia.jpg'),
+  //       require('@/assets/template/ecopetrol.jpg'),
+  //     ],
+  //   },
+  //   {
+  //     titulo: 'Una iniciativa',
+  //     contenido: [require('@/assets/template/santander.jpg')],
+  //   },
+  // ],
 }
