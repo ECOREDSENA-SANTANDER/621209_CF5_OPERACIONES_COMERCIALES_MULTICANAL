@@ -238,12 +238,14 @@ export default {
     {
       referencia:
         'Castellanos Ramírez, A. (n.d.). Logística comercial internacional.',
-      link: 'https://www.ecoeediciones.com/wp-content/uploads/2015/07/Logistica-Comercial-Internacional.pdf?srsltid=AfmBOoqDiiUgOhJ3-ayEoZ-RvzEuf4WJC_Jgn29o_LU9FoB4V8eZvODz',
+      link:
+        'https://www.ecoeediciones.com/wp-content/uploads/2015/07/Logistica-Comercial-Internacional.pdf?srsltid=AfmBOoqDiiUgOhJ3-ayEoZ-RvzEuf4WJC_Jgn29o_LU9FoB4V8eZvODz',
     },
     {
       referencia:
         'Martín-Andino, R. (2006). Cadena de suministro (SCM). Madrid: EOI Escuela de Negocios.',
-      link: 'https://www.eoi.es/sites/default/files/savia/documents/componente45144.pdf',
+      link:
+        'https://www.eoi.es/sites/default/files/savia/documents/componente45144.pdf',
     },
     {
       referencia:
