@@ -13,16 +13,14 @@
           .col-lg-2.mb-3 
             img.img-a.img-t(src="@/assets/curso/tema2/img2.svg")
           .col-lg-10
-            p.mb-4 El 
-              strong.ro #[em picking]   
-              |  es un proceso en el que el personal del almacén de una organización prepara los pedidos realizados por los clientes. El término proviene de la palabra inglesa "#[em to pick]", que significa seleccionar, y se refiere a un conjunto de acciones destinadas al acondicionamiento de un producto solicitado directamente según las especificaciones del cliente.
+            p.mb-4 Es el proceso de pedido, almacenamiento y uso del inventario, desde las materias primas hasta el producto terminado, o desde el producto terminado hasta la góndola o exhibición en el punto de venta del cliente o retail determinado.
         .row.justify-content-center(data-aos="zoom-in-left")
           .col-lg-2.mb-3 
             img.img-a.img-t(src="@/assets/curso/tema2/img3.svg")
           .col-lg-10
             p.mb-4 El 
-              strong.ro #[em packing]
-              | , por otro lado, es una actividad que representa el embalaje. Consiste en preparar los productos recolectados durante la fase de #[em picking] para su envío. Esto implica llevar a cabo tareas de empaque, embalaje o envase, asegurando que los productos estén listos para su transporte y entrega. 
+              strong.ro #[em picking]
+              |  es un proceso en el que el personal del almacén de una organización prepara los pedidos realizados por los clientes. El término proviene de la palabra inglesa "to pick", que significa seleccionar, y se refiere a un conjunto de acciones destinadas al acondicionamiento de un producto solicitado directamente según las especificaciones del cliente.
       .col-lg-4.col-md-7.col-7
         img(src="@/assets/curso/tema2/img1.png")
     
@@ -67,7 +65,7 @@
                 img.img-a.img-t(src='@/assets/curso/tema2/img12.svg')
               .col-lg-10.col-md-10
                 p #[b Vasito dosificador:] muy común en la industria farmacéutica, este tapón sirve también como vasito para dosificar el producto.
-      .py-3.py-md-4.bg26.px-3(titulo="Airless")
+      .py-3.py-md-4.bg26.px-3(titulo="<i>Airless</i>")
         .row.justify-content-center
           .col-lg-3.col-md-7.col-7.my-3
             img.img-a.img-t(src='@/assets/curso/tema2/img5.png', alt='')
@@ -166,7 +164,7 @@
                 p.mb-0 #[b Función estética:] hace que el envase resulte más atractivo para el consumidor y lo prefiera frente a otros productos similares.
               li.d-flex.mb-1
                 i.fas.fa-car-side.camisa
-                p.mb-0 #[b Función de marketing:] relacionada con cómo se vende o se publicita el producto.
+                p.mb-0 #[b Función de #[em marketing:]] relacionada con cómo se vende o se publicita el producto.
               li.d-flex.mb-1
                 i.fas.fa-car-side.camisa
                 p.mb-0 #[b Etiquetado:] incluye información de gran utilidad sobre el producto y sus características.
@@ -228,7 +226,7 @@
     #t_2_3.titulo-segundo.color-secundario
       h2 2.3 Embalaje
 
-    p.mb-4 El embalaje es todo aquello necesario en el transcurso de acondicionar los productos para protegerlos, y/o agruparlos de manera temporal pensando en su manipulación, transporte y almacenamiento. Finalmente, el embalaje es el envoltorio o protección de las mercancías. 
+    p.mb-4 Se define el conteo para el inventario como la acción o el proceso de cuantificar la cantidad de stock en poder de un retail o la existencia de productos en una organización. Existen diversas técnicas para inventariar las existencias de productos, definidas de la siguiente manera:
     
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-0.bg-img-blue

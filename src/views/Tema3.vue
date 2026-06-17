@@ -76,7 +76,7 @@
 
     .row.justify-content-center.align-items-center.mb-2(data-aos="fade-down")
       .col-md-12.col-lg-8.mb-3
-        p.mb-5 Las Buenas Prácticas de Manufactura (BPM), son requerimientos estandarizados de higiene en el proceso de elaboración, preparación, manipulación, envasado, almacenamiento, transporte y distribución de alimentos destinados al consumo, con el fin de que estos cumplan con condiciones sanitarias óptimas y minimizando posibles riesgos propios de los procesos.
+        p.mb-5 Las Buenas Prácticas de Manufactura (BPM) son requerimientos estandarizados de higiene en el proceso de elaboración, preparación, manipulación, envasado, almacenamiento, transporte y distribución de alimentos destinados al consumo, con el fin de que estos cumplan con condiciones sanitarias óptimas y minimizando posibles riesgos propios de los procesos.
         .mb-4.d-flex
           .d-flex.flex-wrap.align-items-center.pe-0.bg-img-blue
             h3.col.px-2.mb-0.mx-5.text-white(data-aos="zoom-in-left") Características
@@ -92,7 +92,7 @@
         img(src='@/assets/curso/tema3/img8.png' alt='')
       .col-lg-8.col-md-12.col-12
         AcordionA.acordion.activo(tipo="b" clase-tarjeta="tarjeta tarjeta--azull")
-          .row.justify-content-center.align-items-center(titulo="Higiene Personal")
+          .row.justify-content-center.align-items-center(titulo="Higiene personal")
             .col-md-3.mb-4.mb-md-0
               figure
                 img.img-a.img-t(src='@/assets/curso/tema3/img10.svg', alt='Texto que describa la imagen')
@@ -104,7 +104,7 @@
                 img.img-a.img-t(src='@/assets/curso/tema3/img11.svg', alt='Texto que describa la imagen')
             .col-md-9
               p.mb-4 Es la ausencia a niveles seguros y tolerables de riesgo en los alimentos que puedan dañar la salud de los consumidores y ayudar a fortalecer las economías, garantizando la seguridad alimentaria, considerando que en la actualidad un gran porcentaje de personas compran y consumen alimentos en lugares públicos.
-          .row.justify-content-center.align-items-center(titulo="Legislación Sanitaria")
+          .row.justify-content-center.align-items-center(titulo="Legislación sanitaria")
             .col-md-3.mb-4.mb-md-0
               figure
                 img.img-a.img-t(src='@/assets/curso/tema3/img12.svg', alt='Texto que describa la imagen')

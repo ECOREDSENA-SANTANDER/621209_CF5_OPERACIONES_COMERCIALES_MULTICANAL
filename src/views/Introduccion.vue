@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    p.mb-4 La logística comercial, es considerada como un proceso fundamental y de gran importancia en las operaciones comerciales en retail, toda la gestión que esta implica será abordada a través de diferentes conceptos en este material de formación. Consulte el video que a continuación se presenta. ¡Muchos éxitos en este proceso de aprendizaje!    
+    p.mb-4 La logística comercial, es considerada como un proceso fundamental y de gran importancia en las operaciones comerciales en #[em retail], toda la gestión que esta implica será abordada a través de diferentes conceptos en este material de formación. Consulte el video que a continuación se presenta. ¡Muchos éxitos en este proceso de aprendizaje!    
     
     .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-12.col-12.col-md-12

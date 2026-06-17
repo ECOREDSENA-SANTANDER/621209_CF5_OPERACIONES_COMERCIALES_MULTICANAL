@@ -71,7 +71,7 @@
             .row.justify-content-center.align-items-center.p-4
               .col-lg-7
                 h4.mb-4 Almacenamiento de refacciones
-                p.mb-4 Son los artículos destinados a corregir o reparar las unidades que ya han estado en manos de los consumidores. Si bien las incidencias de este tipo son mínimas, los retail siempre deben disponer de material en almacén para las peticiones y necesidades de último momento.
+                p.mb-4 Son los artículos destinados a corregir o reparar las unidades que ya han estado en manos de los consumidores. Si bien las incidencias de este tipo son mínimas, los #[em retail] siempre deben disponer de material en almacén para las peticiones y necesidades de último momento.
               .col-lg-4.col-md-9.col-12
                 img(alt="" src="@/assets/curso/tema1/img7.png")
     

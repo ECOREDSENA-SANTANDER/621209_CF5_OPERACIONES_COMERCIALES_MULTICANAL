@@ -232,12 +232,12 @@ export default {
   referencias: [
     {
       referencia:
-        'Preparación de pedidos: definición, etapas, métodos y sistemas. (n.d.).',
+        'Preparación de pedidos: definición, etapas, métodos y sistemas. (s.f.).',
       link: 'https://www.beetrack.com/es/blog/preparacion-de-pedidos',
     },
     {
       referencia:
-        'Castellanos Ramírez, A. (n.d.). Logística comercial internacional.',
+        'Castellanos Ramírez, A. (s.f.). Logística comercial internacional.',
       link:
         'https://www.ecoeediciones.com/wp-content/uploads/2015/07/Logistica-Comercial-Internacional.pdf?srsltid=AfmBOoqDiiUgOhJ3-ayEoZ-RvzEuf4WJC_Jgn29o_LU9FoB4V8eZvODz',
     },
@@ -249,7 +249,7 @@ export default {
     },
     {
       referencia:
-        'anyflip.com. (2021, May 8). Gomez Aparicio Juan Miguel - Gestión Logística Y Comercial - Páginas de Flipbook 201-216 | AnyFlip.',
+        'Gómez Aparicio, J. M. (2013). Gestión logística y comercial. Mc Graw Hill Interamericana de España S.I.',
       link: 'https://anyflip.com/nzfse/blag/basic/201-216',
     },
     {
@@ -333,7 +333,7 @@ export default {
         },
         {
           nombre: 'Sandra Liliana Cristancho Cruz',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

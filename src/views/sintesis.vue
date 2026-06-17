@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5
         figure
-          img(src="@/assets/curso/portada/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/portada/sintesis.svg", alt="El esquema presenta de manera general las temáticas que aborda el componente formativo Logística comercial, incluyendo conocimientos asociados al almacenamiento, picking y packing, carga, y conceptos relacionados.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
