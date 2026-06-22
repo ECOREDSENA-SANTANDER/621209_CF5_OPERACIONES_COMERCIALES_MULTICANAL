@@ -18,9 +18,9 @@ export default {
   data: () => ({
     cuestionario: {
       tema: 'Logística comercial',
-      titulo: 'Cuestionario',
+      titulo: 'Cuestionario: logística comercial.',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión y apropiación de los conceptos fundamentales sobre el manejo de inventarios en el <em>Retail</em>.',
+        '<b> Objetivo:</b> verificar la comprensión de los conceptos fundamentales relacionados con la logística comercial, el almacenamiento, el recibo, el despacho, el manejo de datos, el <i>picking</i>, el <i>packing</i>, la carga, las BPM y la seguridad y salud en el trabajo.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -28,102 +28,313 @@ export default {
         {
           id: 1,
           texto:
-            '<em>Picking</>em es el proceso de gestión y organización de productos en un espacio para su resguardo y conservación. ',
+            'En las operaciones de <i>retail</i>, el almacenamiento permite principalmente:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Guardar mercancías sin registro.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Ubicar, mantener y manipular mercancías de forma planificada.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar el recibo y despacho.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reemplazar la preparación de pedidos.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 2,
-          texto:
-            'El almacenamiento implica un estudio minucioso de las características de cada producto y de las condiciones particulares de su proceso de conservación.',
+          texto: 'Conocer el volumen mínimo de productos en almacén permite:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Solicitar existencias a tiempo y evitar faltantes.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Guardar productos obsoletos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Suspender el registro de inventario.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar costos de almacenamiento.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 3,
-          texto:
-            'Albergar el producto y facilitar su transporte son las únicas dos funciones utilitarias que deben cumplir los envases.',
+          texto: 'El almacenamiento de materias primas corresponde a:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Artículos ya vendidos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Productos terminados de alta rotación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Materiales en estado puro, cercanos a producción.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Refacciones para reparar unidades.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 4,
-          texto:
-            'El embalaje es el proceso de agrupar mercancías para su protección y transporte eficiente.',
+          texto: 'La zona de almacenamiento debe asegurar:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Solo espacios administrativos.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Apariencia de las estanterías.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ausencia de tecnología.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Capacidad de almacenamiento y facilidad para el <i>picking</i>.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 5,
-          texto:
-            'Los tres tipos de embalaje están relacionados y se vinculan con los eslabones de la cadena de suministro, el embalaje primario se enfoca en los consumidores finales, mientras que el secundario y terciario se utilizan en la distribución entre fabricantes y distribuidores.',
-          imagen: require('@/assets/actividad/imagen5.png'),
+          texto: 'En el recibo, la orden de compra sirve para:',
+          imagen: require('@/assets/actividad/imagen05.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Formalizar características, cantidades y condiciones del pedido.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Evitar la verificación de mercancía.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Cerrar la entrega al cliente final.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Omitir protocolos de seguridad.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 6,
+          texto: 'Los formatos usados en las operaciones de recibo ayudan a:',
+          imagen: require('@/assets/actividad/imagen6.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Evitar el registro de entradas y salidas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Conocer inventario, costo de venta y utilidad o pérdida.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar la trazabilidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reemplazar la ficha técnica.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 7,
+          texto: 'El despacho en logística es:',
+          imagen: require('@/assets/actividad/imagen7.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El primer almacenamiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La clasificación del envase.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'El último contacto del producto con el almacén antes de entregarlo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'El análisis de ventas semanales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 8,
+          texto: 'La orden de despacho se integra por:',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Resumen de mercancía, planilla de entrega y factura de venta.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Ficha nutricional, organigrama y política preventiva.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Acta de capacitación y reporte de riesgos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Solicitud de crédito e informe audiovisual.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 9,
+          texto: 'El manejo responsable de datos permite:',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Tomar decisiones con información precisa sobre la operación.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Evitar sistemas de control.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Impedir el intercambio de información.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Almacenar datos sin uso operativo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 10,
+          texto: 'El EDI facilita la logística porque:',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Reemplaza todo documento físico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Intercambia información comercial estructurada y clara.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Elimina códigos de barras y RFID.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Solo guarda datos no estructurados.',
               esCorrecta: false,
             },
           ],
@@ -131,104 +342,312 @@ export default {
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
-          id: 6,
-          texto:
-            'Para convertir la carga suelta en unidades manejables se utilizan dispositivos unitarizadores, que consolidan la carga en contenedores u otras unidades de transporte.',
+          id: 11,
+          texto: 'El <i>picking</i> consiste en:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Seleccionar y preparar productos solicitados.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Cerrar envases farmacéuticos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Agrupar cargas en <i>pallets</i>.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Analizar datos masivos.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
-          id: 7,
-          texto:
-            'El cubicaje es el proceso de la logística que se encarga de sacar la raíz cúbica de los productos para conocer cuantas unidades se encuentran en <em>stock.</em>',
+          id: 12,
+          texto: 'El envase de un producto cumple la función de:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Agrupar cargas terciarias.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Definir rutas de transporte.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Contener, proteger, conservar y facilitar la manipulación.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Medir el área del almacén.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
-          id: 8,
-          texto:
-            'Las buenas prácticas de manufactura (BPM) son estándares de higiene en la producción y distribución de alimentos, que garantizan condiciones sanitarias óptimas y minimizan riesgos propios de los procesos.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          id: 13,
+          texto: 'Un tapón de seguridad de un envase se usa para:',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Aumentar la carga vehicular.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Conservar el producto y dificultar aperturas no deseadas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Convertir embalajes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reemplazar la rotulación.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
-          id: 9,
-          texto:
-            'La actividad productiva de una organización es la que se encarga de utilizar indicadores proactivos de esfuezo preventivo que mejoren la persepción de la seguridad.',
+          id: 14,
+          texto: 'El empaque adecuado debe:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Atender solo la apariencia.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Reducir la sujeción.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Evitar embalajes secundarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Proteger de golpes y optimizar el espacio.',
               esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
-          id: 10,
-          texto:
-            'La evaluación inicial debe incluir aspectos como la normatividad vigente en materia de riesgos laborales y los estándares mínimos del Sistema de Gestión de Seguridad y Salud en el Trabajo.',
-          imagen: require('@/assets/actividad/imagen5.png'),
+          id: 15,
+          texto: 'El embalaje primario se caracteriza porque:',
+          imagen: require('@/assets/actividad/imagen05.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Está en contacto directo con el producto.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Solo consolida cargas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Agrupa cajas con plástico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'No incide en la presentación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 16,
+          texto: 'El vehículo de transporte se elige según:',
+          imagen: require('@/assets/actividad/imagen6.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Los informes de ventas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Naturaleza, cantidad, forma, volumen y peso de la mercancía.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'El diseño de etiquetas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El número de departamentos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 17,
+          texto: 'La unitarización busca:',
+          imagen: require('@/assets/actividad/imagen7.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Separar productos como carga suelta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Sustituir la rotulación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Agrupar mercancías para protegerlas y transportarlas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar <i>pallets</i> o contenedores.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 18,
+          texto: 'Una rotulación clara permite:',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ocultar datos críticos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Identificar y seguir productos en la cadena logística.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Aumentar el peso permitido.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reemplazar normas técnicas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 19,
+          texto: 'El cubicaje eficiente consiste en:',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Acomodar mercancías respetando espacio y límites.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Transportar sin considerar normas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Separar unidades consolidadas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Clasificar envases por material.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 20,
+          texto: 'Las BPM y la seguridad y salud en el trabajo buscan:',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Reemplazar el control de calidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Reducir la higiene personal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Prevenir riesgos y proteger a trabajadores y consumidores.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Limitar la logística al transporte.',
               esCorrecta: false,
             },
           ],
@@ -238,7 +657,7 @@ export default {
       ],
       mensaje_final_aprobado: 'Ha superado la actividad.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
