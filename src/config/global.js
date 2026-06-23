@@ -59,7 +59,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: '<em>Picking</em> y <em>Packing</em>',
+        titulo: '<em>Picking</em> y <em>packing</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -232,12 +232,12 @@ export default {
   referencias: [
     {
       referencia:
-        'Preparación de pedidos: definición, etapas, métodos y sistemas. (s.f.).',
+        'Preparación de pedidos: definición, etapas, métodos y sistemas. (s. f.).',
       link: 'https://www.beetrack.com/es/blog/preparacion-de-pedidos',
     },
     {
       referencia:
-        'Castellanos Ramírez, A. (s.f.). Logística comercial internacional.',
+        'Castellanos Ramírez, A. (s. f.). Logística comercial internacional.',
       link:
         'https://www.ecoeediciones.com/wp-content/uploads/2015/07/Logistica-Comercial-Internacional.pdf?srsltid=AfmBOoqDiiUgOhJ3-ayEoZ-RvzEuf4WJC_Jgn29o_LU9FoB4V8eZvODz',
     },
