@@ -18,7 +18,7 @@ export default {
   data: () => ({
     cuestionario: {
       tema: 'Logística comercial',
-      titulo: 'Cuestionario: logística comercial.',
+      titulo: 'Cuestionario',
       introduccion:
         '<b> Objetivo:</b> verificar la comprensión de los conceptos fundamentales relacionados con la logística comercial, el almacenamiento, el recibo, el despacho, el manejo de datos, el <i>picking</i>, el <i>packing</i>, la carga, las BPM y la seguridad y salud en el trabajo.',
       barajarPreguntas: true,
