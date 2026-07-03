@@ -215,20 +215,20 @@
               .col-lg-4.col-md-10.col-10
                 img.img-a.img-t(src='@/assets/curso/tema2/03.png', alt='').mb-3
               .col-lg-8.col-md-12.col-12
-                p.mb-4 El producto no debe de perder ninguno de sus atributos físicos.
+                p.mb-4 El producto no debe perder ninguno de sus atributos físicos.
           
           .tarjeta.color-acento-botones.bg06.p-4(titulo="Práctico")
             .row.justify-content-center.align-items-center
               .col-lg-4.col-md-10.col-10
                 img.img-a.img-t(src='@/assets/curso/tema2/04.png', alt='').mb-3
               .col-lg-8.col-md-12.col-12
-                p.mb-4 El empaque perfecto debe ser práctico. En pocas palabras, es aquel que disminuye tiempo de empaquetado porque se arma, se llena y se cierra fácil.
+                p.mb-4 El empaque perfecto debe ser práctico. En pocas palabras, es aquel que disminuye el tiempo de empaquetado porque se arma, se llena y se cierra fácil.
 
     separador
     #t_2_3.titulo-segundo.color-secundario
       h2 2.3 Embalaje
 
-    p.mb-4 El embalaje es todo aquello necesario en el transcurso de acondicionar los productos para protegerlos, y/o agruparlos de manera temporal pensando en su manipulación, transporte y almacenamiento. Finalmente, el embalaje es el envoltorio o protección de las mercancías.
+    p.mb-4 El embalaje es todo aquello necesario en el transcurso de acondicionar los productos para protegerlos, y/o agruparlos de manera temporal, pensando en su manipulación, transporte y almacenamiento. Finalmente, el embalaje es el envoltorio o protección de las mercancías.
     
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-0.bg-img-blue

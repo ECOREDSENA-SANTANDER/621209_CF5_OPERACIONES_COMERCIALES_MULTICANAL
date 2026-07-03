@@ -109,13 +109,13 @@
               figure
                 img.img-a.img-t(src='@/assets/curso/tema3/img12.svg', alt='Texto que describa la imagen')
             .col-md-9
-              p.mb-4 Es un instrumento formal que procede para la regular a nivel sanitario y en el sentido formal de la ley, teniendo el carácter de obligatoriedad cuando son formuladas conforme el debido proceso de creación, esto aplica para el caso de una ley, decreto, resolución, reglamento o norma.
+              p.mb-4 Es un instrumento formal que procede para regular a nivel sanitario y, en el sentido formal de la ley, tiene carácter de obligatoriedad cuando se formula conforme al debido proceso de creación; esto aplica para el caso de una ley, decreto, resolución, reglamento o norma.
           .row.justify-content-center.align-items-center(titulo="Seguridad en el trabajo")
             .col-md-3.mb-4.mb-md-0
               figure
                 img.img-a.img-t(src='@/assets/curso/tema3/img13.svg', alt='Texto que describa la imagen')
             .col-md-9
-              p.mb-4 Determinada como aquella conducta que trata de la prevención de las lesiones y enfermedades causadas por las situaciones de trabajo, además, de la protección y promoción de la salud de los empleados.
+              p.mb-4 Determinada como aquella conducta que trata de la prevención de las lesiones y enfermedades causadas por las situaciones de trabajo, además de la protección y promoción de la salud de los empleados.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.col-md-12.col-12
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azull")
@@ -124,7 +124,7 @@
               figure
                 img.img-a.img-t(src='@/assets/curso/tema3/img14.svg', alt='Texto que describa la imagen')
             .col-md-9
-              p.mb-4 El objetivo de la identificación riesgos, es conocer de manera anticipada los hechos o situaciones que se pueden producir en la empresa y las consecuencias que puedan representar un riesgo o afectar negativamente los objetivos de la organización.
+              p.mb-4 El objetivo de la identificación de riesgos es conocer de manera anticipada los hechos o situaciones que se pueden producir en la empresa y las consecuencias que puedan representar un riesgo o afectar negativamente los objetivos de la organización.
           .row.justify-content-center.align-items-center(titulo="Aseguramiento de la calidad")
             .col-md-3.mb-4.mb-md-0
               figure
@@ -154,7 +154,7 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-11.col-md-12.col-12
-        p.mb-4 Su aplicación es transversal en todas las fases propias de la producción alimenticia, desde su inicio, transformación y manipulación. Son fundamentales para mantener la inocuidad y seguridad en los productos de consumo humano, siendo sus procedimientos aplicables a todas estas fases, permitiendo un adecuado diseño de la infraestructura fabril, y a su vez de los procesos y operaciones propias de estas fábricas, hasta que el usuario final pueda disponer del producto terminado.
+        p.mb-4 Su aplicación es transversal en todas las fases propias de la producción alimenticia, desde su inicio, transformación y manipulación. Son fundamentales para mantener la inocuidad y seguridad en los productos de consumo humano, siendo sus procedimientos aplicables a todas estas fases, permitiendo un adecuado diseño de la infraestructura fabril, y a su vez, de los procesos y operaciones propias de estas fábricas, hasta que el usuario final pueda disponer del producto terminado.
       .col-lg-1
         img.img-a.img-t(src='@/assets/curso/tema3/img18.svg' alt='') 
     
@@ -287,7 +287,7 @@
                     img.img-a.img-t(src='@/assets/curso/tema3/img31.svg', alt='Texto que describa la imagen')
                 .col-md-8
                   h4.mb-4 Respuesta ante emergencias
-                  p.mb-4 Es el modo de acción que toda compañía debe de llevar a cabo en caso de que se demuestren situaciones de riesgo, minimizando los posibles peligros que se podrían desencadenar sobre las personas y demás espacios de la organización. 
+                  p.mb-4 Es el modo de acción que toda compañía debe llevar a cabo en caso de que se demuestren situaciones de riesgo, minimizando los posibles peligros que se podrían desencadenar sobre las personas y demás espacios de la organización. 
 
 
 

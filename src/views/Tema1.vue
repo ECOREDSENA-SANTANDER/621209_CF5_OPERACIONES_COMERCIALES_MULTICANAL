@@ -31,7 +31,7 @@
         h3.col.px-2.mb-0.mx-5.text-white(data-aos="zoom-in-left") Tipos
         img.icon(src='@/assets/curso/tema1/icon.svg') 
 
-    p.mb-4 Un #[em retail], es una infraestructura para el acopio de productos dentro de la cadena de suministro, en tal sentido, son espacios físicos que cubren el periodo entre los flujos de entrada y de salida. Se podría afirmar, que los progresos tecnológicos han organizado una necesaria clasificación de los tipos de almacenamiento a los que se pueden identificar en función de los materiales y sus características. 
+    p.mb-4 Un #[em retail] es una infraestructura para el acopio de productos dentro de la cadena de suministro, en tal sentido, son espacios físicos que cubren el periodo entre los flujos de entrada y de salida. Se podría afirmar que los progresos tecnológicos han organizado una necesaria clasificación de los tipos de almacenamiento que se pueden identificar en función de los materiales y sus características.
     p.mb-4 Los siguientes tipos de almacenamiento son los más acostumbrados: 
     
     .row.fondo1.align-items-center.p-3.mb-5
@@ -221,8 +221,8 @@
               | Información nutricional 
           .col-lg-8.col-md-12.col-12
             .row.justify-content.align-items-start
-              .col-lg-8.col-md-12.col-12
-                img.mb-4(src='@/assets/curso/tema1/fig6.png', alt='La figura presenta un ejemplo de la información nutricional de un producto.')
+              .col-lg-7.col-md-12.col-12
+                img.mb-4(src='@/assets/curso/tema1/fig6.png', alt='En la parte superior se indica el tamaño de la porción y el número de porciones por envase. A continuación, se presenta la cantidad de calorías por porción. En el lado derecho se destaca el porcentaje del valor diario (%VD), que permite identificar el aporte de cada nutriente respecto a las necesidades diarias. En el cuerpo de la etiqueta se incluyen los nutrientes que deben consumirse con moderación, como grasas, colesterol y sodio, así como los nutrientes de interés nutricional, entre ellos carbohidratos, fibra, azúcares, proteínas, vitaminas y minerales. La figura muestra la estructura general de una etiqueta nutricional y los principales componentes que orientan al consumidor sobre el contenido nutricional del alimento.')
 
 
     separador
@@ -284,7 +284,7 @@
                 p.mb-0 En el caso de despacho de cajas mixtas, estibas mixtas, arrume de mercancía, la lista de empaque estará contenida en el “aviso de despacho”.
               li.d-flex.mb-0
                 i.fas.fa-circle-check
-                p.mb-0 Generación y envío del “aviso de despacho” hacia al cliente. Si no se tiene la capacidad de generar un aviso de despacho, el proveedor, al pedir la cita, debe especificar la cantidad y tipo de camiones que serán despachados para entregar la mercancía solicitada por el cliente.
+                p.mb-0 Generación y envío del “aviso de despacho” hacia el cliente. Si no se tiene la capacidad de generar un aviso de despacho, el proveedor, al pedir la cita, debe especificar la cantidad y tipo de camiones que serán despachados para entregar la mercancía solicitada por el cliente.
               li.d-flex.mb-0
                 i.fas.fa-circle-check
                 p.mb-0 En los despachos de paqueteo, el proveedor debe incluir en la etiqueta de despacho (rótulo) el número de localización del punto de entrega simbolizado en código de barras. También aplica para las entregas en #[em cross docking] predistribuido.
@@ -295,7 +295,7 @@
                 p.mb-0 Facturación registrando el número del sello de seguridad que lleve el vehículo, al igual que el número de estibas, cajas o recipientes. Se debe tener en cuenta la posibilidad de un carrusel de sellos para entregas parciales en varios almacenes. Nota: estos datos deben incluirse en el aviso de despacho cuando se aplica.
               li.d-flex.mb-0
                 i.fas.fa-circle-check
-                p.mb-0 Asegurar la calidad en la entrega, tanto de procesos como de productos en los cuales los industriales deben hacer uso de normas pertinentes.
+                p.mb-0 Asegurar la calidad en la entrega, tanto de procesos como de productos, en los cuales los industriales deben hacer uso de normas pertinentes.
               li.d-flex.mb-0
                 i.fas.fa-circle-check
                 p.mb-0 Cargue del vehículo y colocación de los sellos de seguridad o su equivalente.
@@ -335,7 +335,7 @@
                   p.mb-0 Se hace el conteo del número de empaques y se verifica la calidad de los embalajes.
                 li.d-flex.mb-1
                   i.fas.fa-circle-check
-                  p.mb-0 En el caso del transporte masivo y semimasivo se colocan los sellos de seguridad teniendo en cuenta lo acordado con el cliente.
+                  p.mb-0 En el caso del transporte masivo y semimasivo, se colocan los sellos de seguridad teniendo en cuenta lo acordado con el cliente.
                 li.d-flex.mb-1
                   i.fas.fa-circle-check
                   p.mb-0 Se recibe copia del aviso de despacho generado por el proveedor.
@@ -349,9 +349,7 @@
                 li.d-flex.mb-1
                   i.fas.fa-circle-check
                   p.mb-0 En los casos en los que la mercancía no es despachada directamente hacia los puntos de entrega, se valida el descargue y/o cargue del camión con los avisos del despacho, haciendo lectura de los códigos de barras en la mercancía transportada. En los casos de despacho por paqueteo, el código de barras de la etiqueta de despacho (rótulo) incluye el número de localización del punto de entrega.
-                li.d-flex.mb-1
-                  i.fas.fa-circle-check
-                  p.mb-0 Entrega las mercancías en los puntos de despacho de acuerdo con las fechas y horas pactadas.
+                
 
           .row(numero="4" titulo= "Para finalizar")
             .col-md-12.mb-2.mb-md-0.mx-0
